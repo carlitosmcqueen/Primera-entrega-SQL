@@ -1,0 +1,14 @@
+1- gatos bebes
+muestra la cantidad de gatos menores a 6 meses
+
+2- view_animales_cliente
+muestra la cantidad de animales por cliente
+
+3- view_tickets_mercaderia
+muestra la cantidad de productos que compro cada cliente y su total
+
+4- view_total_cliente
+muestra toda la plata que a gastado un cliente
+
+5- view_tratamiento_mascotas
+muestra el tratamiento al cual sera intervenido el animal
