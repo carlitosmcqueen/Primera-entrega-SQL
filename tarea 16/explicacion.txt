@@ -1,0 +1,9 @@
+acomodar_animales 
+
+busca la columna dentro de la tabla animal y le decimos si los va a ordenar de manera ASC O DESC en caso no espeficarle que tablas o si ASC o DESC se devolvera la tabla sin ningun cambio
+
+agregar_animal
+agrega un animal a la tabla de animal
+
+quitar_animal 
+quita un animal de la tabla animal
