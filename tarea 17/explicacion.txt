@@ -1,0 +1,38 @@
+ACTUALIZAR PRECIOS MERCADERIA
+
+al actualizar un precio en mercaderia, se inserta en la tabla log_actualizacion_de_precios_mercaderia una fila 
+donde mostrara el id de la mercaderia, el nuevo precio, el precio anterior,fecha, hora y el usuario
+ 
+----------------------------------------------
+
+
+INSERCION HISTORIAL TRATAMIENTO ////////// este lo hice para ver que onda
+
+Despues de hacer una insercion en tratamiento, se agregara una fila en la tabla historial que mostrara el id del tratamiento
+, el animal, fecha y hora
+
+-----------------------------------------------------------------
+
+LOG INGRESO ANIMAL
+
+Despues de agregar un animal en la tabla animal, se agregara una linea en la tabla log_nuevos_animales con el nombre, tipo y edad del animal 
+
+(nota me olvide de agregar fecha, hora y usuario)
+
+
+LOG_TICKET_NUEVO - LOG_TICKET_MERCADERIA  - LOG_TICKET_TRATAMIENTO
+
+funcionan de forma similar, cuando se hace una insercion a sus respectivas tablas, se agrega una fila a su log_"tabla que uso" 
+ 
+Pero aca me ocurre algo que no paraba antes, ni con los demas triggers
+Cuando hago una insercion a las tablas ticket,ticket_mercaderia y ticket_tratamiento 
+
+INSERT INTO ticket_tratamiento 
+VALUES(4,17,9,100.00)
+
+me pide que ponga el ID correspondiente, esto antes no me pasaba con solo poner los demas valores el ID se ponia solo
+
+¿Sabe por que estaria pasando esto?
+
+
+
